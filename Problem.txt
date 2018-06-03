@@ -1,0 +1,3 @@
+find one given particular character in string
+ex :   str="Hello" ch='l'
+count=2
