@@ -1,0 +1,6 @@
+MergeSort
+
+we have two two sorted arrays A & B. A has enough space to hold B. Merge B in such the resultant A will be sorted.
+A={2,3,6,7,9} A with size 8
+B={1,4,8}  B with size 3
+after merge sort A= {1,2,3,4,6,7,8,9} 
