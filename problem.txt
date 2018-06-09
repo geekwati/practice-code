@@ -1,0 +1,18 @@
+Largest Gap
+we are given with an unsorted array,
+we have to find largest gap between any pair of elements of array.
+for ex 
+	1)  {3,4,1,6,2,7,5}
+	o/p 6 
+	because 7-1 is 6
+	2) {-3, -1, 6, 7, 0}
+	o/p 10
+	because 7-(-3)=10
+solutions
+	1) first approach to solve this is
+		in o(n^2) check each pair for largest gap by two for loops
+		initially take diff= Integer.Min_VALUE;(minimum value among integers)
+		
+	2) second approach to solve in o(n) greedy method
+		find max and min among array in o(n) and calculate their difference
+
